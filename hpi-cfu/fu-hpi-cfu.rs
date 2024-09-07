@@ -58,15 +58,6 @@ enum FuHpiCfuFirmwareUpdateOffer {
     CmdNotSupported = 0xFF,
 }
 
-
-#[derive(ToString)]
-#[repr(u8)]
-enum FuHpiCfuInfo {
-    StartEntireTransaction = 0x00,
-    StartOffer = 0x01,
-    StartEndOfferList = 0x02,
-}
-
 #[derive(ToString)]
 #[repr(u8)]
 enum FuHpiFirmwareUpdateStatus {
